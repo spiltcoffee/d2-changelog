@@ -28,6 +28,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.4.0"],\
+            ["@fortawesome/free-brands-svg-icons", "npm:6.4.0"],\
+            ["@fortawesome/free-regular-svg-icons", "npm:6.4.0"],\
+            ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
+            ["@fortawesome/vue-fontawesome", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3"],\
             ["@mdi/font", "npm:7.0.96"],\
             ["@types/node", "npm:18.15.11"],\
             ["@types/webfontloader", "npm:1.6.35"],\
@@ -162,6 +167,81 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@eslint-js-npm-8.38.0-886fbc629f-8.zip/node_modules/@eslint/js/",\
           "packageDependencies": [\
             ["@eslint/js", "npm:8.38.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fortawesome/fontawesome-common-types", [\
+        ["npm:6.4.0", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-common-types-npm-6.4.0-8174465a2e/node_modules/@fortawesome/fontawesome-common-types/",\
+          "packageDependencies": [\
+            ["@fortawesome/fontawesome-common-types", "npm:6.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fortawesome/fontawesome-svg-core", [\
+        ["npm:6.4.0", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-svg-core-npm-6.4.0-bc7699426e/node_modules/@fortawesome/fontawesome-svg-core/",\
+          "packageDependencies": [\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.4.0"],\
+            ["@fortawesome/fontawesome-common-types", "npm:6.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fortawesome/free-brands-svg-icons", [\
+        ["npm:6.4.0", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-free-brands-svg-icons-npm-6.4.0-91e559767c/node_modules/@fortawesome/free-brands-svg-icons/",\
+          "packageDependencies": [\
+            ["@fortawesome/free-brands-svg-icons", "npm:6.4.0"],\
+            ["@fortawesome/fontawesome-common-types", "npm:6.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fortawesome/free-regular-svg-icons", [\
+        ["npm:6.4.0", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-free-regular-svg-icons-npm-6.4.0-2f59fc26d1/node_modules/@fortawesome/free-regular-svg-icons/",\
+          "packageDependencies": [\
+            ["@fortawesome/free-regular-svg-icons", "npm:6.4.0"],\
+            ["@fortawesome/fontawesome-common-types", "npm:6.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fortawesome/free-solid-svg-icons", [\
+        ["npm:6.4.0", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-free-solid-svg-icons-npm-6.4.0-be633fc4ad/node_modules/@fortawesome/free-solid-svg-icons/",\
+          "packageDependencies": [\
+            ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
+            ["@fortawesome/fontawesome-common-types", "npm:6.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fortawesome/vue-fontawesome", [\
+        ["npm:3.0.3", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@fortawesome-vue-fontawesome-npm-3.0.3-7a99a3139e-8.zip/node_modules/@fortawesome/vue-fontawesome/",\
+          "packageDependencies": [\
+            ["@fortawesome/vue-fontawesome", "npm:3.0.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3", {\
+          "packageLocation": "./.yarn/__virtual__/@fortawesome-vue-fontawesome-virtual-48714f3974/3/Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@fortawesome-vue-fontawesome-npm-3.0.3-7a99a3139e-8.zip/node_modules/@fortawesome/vue-fontawesome/",\
+          "packageDependencies": [\
+            ["@fortawesome/vue-fontawesome", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3"],\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.4.0"],\
+            ["@types/fortawesome__fontawesome-svg-core", null],\
+            ["@types/vue", null],\
+            ["vue", "npm:3.2.47"]\
+          ],\
+          "packagePeers": [\
+            "@fortawesome/fontawesome-svg-core",\
+            "@types/fortawesome__fontawesome-svg-core",\
+            "@types/vue",\
+            "vue"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1238,6 +1318,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["d2-changelog", "workspace:."],\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.4.0"],\
+            ["@fortawesome/free-brands-svg-icons", "npm:6.4.0"],\
+            ["@fortawesome/free-regular-svg-icons", "npm:6.4.0"],\
+            ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
+            ["@fortawesome/vue-fontawesome", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3"],\
             ["@mdi/font", "npm:7.0.96"],\
             ["@types/node", "npm:18.15.11"],\
             ["@types/webfontloader", "npm:1.6.35"],\

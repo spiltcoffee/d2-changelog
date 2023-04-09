@@ -1,18 +1,8 @@
-/**
- * plugins/index.ts
- *
- * Automatically included in `./src/main.ts`
- */
-
-// Plugins
-import { loadFonts } from "./webfontloader";
+import type { App } from "vue";
 import vuetify from "./vuetify";
 import pinia from "../store";
-
-// Types
-import type { App } from "vue";
+import icons from "./icons";
 
 export function registerPlugins(app: App) {
-  loadFonts();
-  app.use(vuetify).use(pinia);
+  app.use(vuetify).use(pinia).use(icons);
 }
