@@ -34,10 +34,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/vue-fontawesome", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3"],\
             ["@mdi/font", "npm:7.0.96"],\
+            ["@types/dompurify", "npm:3.0.1"],\
             ["@types/node", "npm:18.15.11"],\
             ["@types/webfontloader", "npm:1.6.35"],\
             ["@vitejs/plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.2.0"],\
             ["@vue/eslint-config-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:11.0.2"],\
+            ["@vueuse/core", "npm:9.13.0"],\
+            ["axios", "npm:1.3.5"],\
+            ["dompurify", "npm:3.0.1"],\
             ["eslint", "npm:8.38.0"],\
             ["eslint-plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:9.10.0"],\
             ["pinia", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:2.0.34"],\
@@ -47,6 +51,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vite", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.2.5"],\
             ["vite-plugin-vuetify", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:1.0.2"],\
             ["vue", "npm:3.2.47"],\
+            ["vue-router", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.1.6"],\
             ["vue-tsc", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:1.3.12"],\
             ["vuetify", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.1.13"],\
             ["webfontloader", "npm:1.6.28"]\
@@ -365,6 +370,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/dompurify", [\
+        ["npm:3.0.1", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@types-dompurify-npm-3.0.1-5ab1e1878d-8.zip/node_modules/@types/dompurify/",\
+          "packageDependencies": [\
+            ["@types/dompurify", "npm:3.0.1"],\
+            ["@types/jsdom", "npm:21.1.1"],\
+            ["@types/trusted-types", "npm:2.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/jsdom", [\
+        ["npm:21.1.1", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@types-jsdom-npm-21.1.1-4175e6dd27-8.zip/node_modules/@types/jsdom/",\
+          "packageDependencies": [\
+            ["@types/jsdom", "npm:21.1.1"],\
+            ["@types/node", "npm:18.15.11"],\
+            ["@types/tough-cookie", "npm:4.0.2"],\
+            ["parse5", "npm:7.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/json-schema", [\
         ["npm:7.0.11", {\
           "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@types-json-schema-npm-7.0.11-79462ae5ca-8.zip/node_modules/@types/json-schema/",\
@@ -388,6 +416,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@types-semver-npm-7.3.13-56212b60da-8.zip/node_modules/@types/semver/",\
           "packageDependencies": [\
             ["@types/semver", "npm:7.3.13"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/tough-cookie", [\
+        ["npm:4.0.2", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@types-tough-cookie-npm-4.0.2-9e61f877e6-8.zip/node_modules/@types/tough-cookie/",\
+          "packageDependencies": [\
+            ["@types/tough-cookie", "npm:4.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/trusted-types", [\
+        ["npm:2.0.3", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@types-trusted-types-npm-2.0.3-225cf76fb4-8.zip/node_modules/@types/trusted-types/",\
+          "packageDependencies": [\
+            ["@types/trusted-types", "npm:2.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/web-bluetooth", [\
+        ["npm:0.0.16", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@types-web-bluetooth-npm-0.0.16-f114b1536b-8.zip/node_modules/@types/web-bluetooth/",\
+          "packageDependencies": [\
+            ["@types/web-bluetooth", "npm:0.0.16"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -973,6 +1028,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@vueuse/core", [\
+        ["npm:9.13.0", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@vueuse-core-npm-9.13.0-72ab64dff2-8.zip/node_modules/@vueuse/core/",\
+          "packageDependencies": [\
+            ["@vueuse/core", "npm:9.13.0"],\
+            ["@types/web-bluetooth", "npm:0.0.16"],\
+            ["@vueuse/metadata", "npm:9.13.0"],\
+            ["@vueuse/shared", "npm:9.13.0"],\
+            ["vue-demi", "virtual:fbb8b3c7648a9fceeee0620e3b5b2ed27cf89e19bb041feff887c6c0dcd4253207771a3a038023d5211b5d6dc28eecfaaf9c35f33c713c6e41f262234ac4e5bd#npm:0.13.11"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vueuse/metadata", [\
+        ["npm:9.13.0", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@vueuse-metadata-npm-9.13.0-cda5d7a930-8.zip/node_modules/@vueuse/metadata/",\
+          "packageDependencies": [\
+            ["@vueuse/metadata", "npm:9.13.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vueuse/shared", [\
+        ["npm:9.13.0", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/@vueuse-shared-npm-9.13.0-fbb8b3c764-8.zip/node_modules/@vueuse/shared/",\
+          "packageDependencies": [\
+            ["@vueuse/shared", "npm:9.13.0"],\
+            ["vue-demi", "virtual:fbb8b3c7648a9fceeee0620e3b5b2ed27cf89e19bb041feff887c6c0dcd4253207771a3a038023d5211b5d6dc28eecfaaf9c35f33c713c6e41f262234ac4e5bd#npm:0.13.11"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["abbrev", [\
         ["npm:1.1.1", {\
           "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/abbrev-npm-1.1.1-3659247eab-8.zip/node_modules/abbrev/",\
@@ -1112,6 +1199,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/array-union-npm-2.1.0-4e4852b221-8.zip/node_modules/array-union/",\
           "packageDependencies": [\
             ["array-union", "npm:2.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["asynckit", [\
+        ["npm:0.4.0", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/asynckit-npm-0.4.0-c718858525-8.zip/node_modules/asynckit/",\
+          "packageDependencies": [\
+            ["asynckit", "npm:0.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["axios", [\
+        ["npm:1.3.5", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/axios-npm-1.3.5-f8ffbd6db8-8.zip/node_modules/axios/",\
+          "packageDependencies": [\
+            ["axios", "npm:1.3.5"],\
+            ["follow-redirects", "virtual:f8ffbd6db860234aec9e3b1f7357c76ae7346ca1bf8803ae8f0fba9f68c4cf3e69a2687237b9715f6e3ebbfebfa2d74cb0fb87edc7fbe8b6577e440ac6443c68#npm:1.15.2"],\
+            ["form-data", "npm:4.0.0"],\
+            ["proxy-from-env", "npm:1.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1256,6 +1364,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["combined-stream", [\
+        ["npm:1.0.8", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/combined-stream-npm-1.0.8-dc14d4a63a-8.zip/node_modules/combined-stream/",\
+          "packageDependencies": [\
+            ["combined-stream", "npm:1.0.8"],\
+            ["delayed-stream", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["commondir", [\
         ["npm:1.0.1", {\
           "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/commondir-npm-1.0.1-291b790340-8.zip/node_modules/commondir/",\
@@ -1324,10 +1442,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/vue-fontawesome", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3"],\
             ["@mdi/font", "npm:7.0.96"],\
+            ["@types/dompurify", "npm:3.0.1"],\
             ["@types/node", "npm:18.15.11"],\
             ["@types/webfontloader", "npm:1.6.35"],\
             ["@vitejs/plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.2.0"],\
             ["@vue/eslint-config-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:11.0.2"],\
+            ["@vueuse/core", "npm:9.13.0"],\
+            ["axios", "npm:1.3.5"],\
+            ["dompurify", "npm:3.0.1"],\
             ["eslint", "npm:8.38.0"],\
             ["eslint-plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:9.10.0"],\
             ["pinia", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:2.0.34"],\
@@ -1337,6 +1459,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vite", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.2.5"],\
             ["vite-plugin-vuetify", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:1.0.2"],\
             ["vue", "npm:3.2.47"],\
+            ["vue-router", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.1.6"],\
             ["vue-tsc", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:1.3.12"],\
             ["vuetify", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.1.13"],\
             ["webfontloader", "npm:1.6.28"]\
@@ -1385,6 +1508,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["delayed-stream", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/delayed-stream-npm-1.0.0-c5a4c4cc02-8.zip/node_modules/delayed-stream/",\
+          "packageDependencies": [\
+            ["delayed-stream", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["delegates", [\
         ["npm:1.0.0", {\
           "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/delegates-npm-1.0.0-9b1942d75f-8.zip/node_modules/delegates/",\
@@ -1423,6 +1555,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["dompurify", [\
+        ["npm:3.0.1", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/dompurify-npm-3.0.1-3793c93bcb-8.zip/node_modules/dompurify/",\
+          "packageDependencies": [\
+            ["dompurify", "npm:3.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["emoji-regex", [\
         ["npm:8.0.0", {\
           "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/emoji-regex-npm-8.0.0-213764015c-8.zip/node_modules/emoji-regex/",\
@@ -1438,6 +1579,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["encoding", "npm:0.1.13"],\
             ["iconv-lite", "npm:0.6.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["entities", [\
+        ["npm:4.4.0", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/entities-npm-4.4.0-97635dc5cc-8.zip/node_modules/entities/",\
+          "packageDependencies": [\
+            ["entities", "npm:4.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1972,6 +2122,40 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/flatted-npm-3.2.7-0da10b7c56-8.zip/node_modules/flatted/",\
           "packageDependencies": [\
             ["flatted", "npm:3.2.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["follow-redirects", [\
+        ["npm:1.15.2", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/follow-redirects-npm-1.15.2-1ec1dd82be-8.zip/node_modules/follow-redirects/",\
+          "packageDependencies": [\
+            ["follow-redirects", "npm:1.15.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:f8ffbd6db860234aec9e3b1f7357c76ae7346ca1bf8803ae8f0fba9f68c4cf3e69a2687237b9715f6e3ebbfebfa2d74cb0fb87edc7fbe8b6577e440ac6443c68#npm:1.15.2", {\
+          "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-bad0d3b6de/3/Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/follow-redirects-npm-1.15.2-1ec1dd82be-8.zip/node_modules/follow-redirects/",\
+          "packageDependencies": [\
+            ["follow-redirects", "virtual:f8ffbd6db860234aec9e3b1f7357c76ae7346ca1bf8803ae8f0fba9f68c4cf3e69a2687237b9715f6e3ebbfebfa2d74cb0fb87edc7fbe8b6577e440ac6443c68#npm:1.15.2"],\
+            ["@types/debug", null],\
+            ["debug", null]\
+          ],\
+          "packagePeers": [\
+            "@types/debug",\
+            "debug"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["form-data", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/form-data-npm-4.0.0-916facec2d-8.zip/node_modules/form-data/",\
+          "packageDependencies": [\
+            ["form-data", "npm:4.0.0"],\
+            ["asynckit", "npm:0.4.0"],\
+            ["combined-stream", "npm:1.0.8"],\
+            ["mime-types", "npm:2.1.35"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2532,6 +2716,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["mime-db", [\
+        ["npm:1.52.0", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/mime-db-npm-1.52.0-b5371d6fd2-8.zip/node_modules/mime-db/",\
+          "packageDependencies": [\
+            ["mime-db", "npm:1.52.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["mime-types", [\
+        ["npm:2.1.35", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/mime-types-npm-2.1.35-dd9ea9f3e2-8.zip/node_modules/mime-types/",\
+          "packageDependencies": [\
+            ["mime-types", "npm:2.1.35"],\
+            ["mime-db", "npm:1.52.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["minimatch", [\
         ["npm:3.1.2", {\
           "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/minimatch-npm-3.1.2-9405269906-8.zip/node_modules/minimatch/",\
@@ -2851,6 +3054,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["parse5", [\
+        ["npm:7.1.2", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/parse5-npm-7.1.2-aa9a92c270-8.zip/node_modules/parse5/",\
+          "packageDependencies": [\
+            ["parse5", "npm:7.1.2"],\
+            ["entities", "npm:4.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["path-exists", [\
         ["npm:4.0.0", {\
           "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/path-exists-npm-4.0.0-e9e4f63eb0-8.zip/node_modules/path-exists/",\
@@ -3026,6 +3239,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["promise-retry", "npm:2.0.1"],\
             ["err-code", "npm:2.0.3"],\
             ["retry", "npm:0.12.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["proxy-from-env", [\
+        ["npm:1.1.0", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/proxy-from-env-npm-1.1.0-c13d07f26b-8.zip/node_modules/proxy-from-env/",\
+          "packageDependencies": [\
+            ["proxy-from-env", "npm:1.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3629,6 +3851,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "vue"\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["virtual:fbb8b3c7648a9fceeee0620e3b5b2ed27cf89e19bb041feff887c6c0dcd4253207771a3a038023d5211b5d6dc28eecfaaf9c35f33c713c6e41f262234ac4e5bd#npm:0.13.11", {\
+          "packageLocation": "./.yarn/unplugged/vue-demi-virtual-c60a5188df/node_modules/vue-demi/",\
+          "packageDependencies": [\
+            ["vue-demi", "virtual:fbb8b3c7648a9fceeee0620e3b5b2ed27cf89e19bb041feff887c6c0dcd4253207771a3a038023d5211b5d6dc28eecfaaf9c35f33c713c6e41f262234ac4e5bd#npm:0.13.11"],\
+            ["@types/vue", null],\
+            ["@types/vue__composition-api", null],\
+            ["@vue/composition-api", null],\
+            ["vue", null]\
+          ],\
+          "packagePeers": [\
+            "@types/vue",\
+            "@types/vue__composition-api",\
+            "@vue/composition-api",\
+            "vue"\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["vue-eslint-parser", [\
@@ -3656,6 +3895,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/eslint",\
             "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["vue-router", [\
+        ["npm:4.1.6", {\
+          "packageLocation": "../../Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/vue-router-npm-4.1.6-ccab7109e1-8.zip/node_modules/vue-router/",\
+          "packageDependencies": [\
+            ["vue-router", "npm:4.1.6"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.1.6", {\
+          "packageLocation": "./.yarn/__virtual__/vue-router-virtual-c588a2ad92/3/Users/SpiltCoffee/AppData/Local/Yarn/Berry/cache/vue-router-npm-4.1.6-ccab7109e1-8.zip/node_modules/vue-router/",\
+          "packageDependencies": [\
+            ["vue-router", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.1.6"],\
+            ["@types/vue", null],\
+            ["@vue/devtools-api", "npm:6.5.0"],\
+            ["vue", "npm:3.2.47"]\
+          ],\
+          "packagePeers": [\
+            "@types/vue",\
+            "vue"\
           ],\
           "linkType": "HARD"\
         }]\
