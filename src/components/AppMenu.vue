@@ -3,7 +3,7 @@
     <div class="d-flex flex-column h-100">
       <v-list density="compact">
         <v-list-group>
-          <template #activator="{ isOpen, props }">
+          <template #activator="{ props }">
             <v-list-item v-bind="props" title="Settings">
               <template #prepend>
                 <v-icon icon="fa-solid fa-gear" />
@@ -37,7 +37,7 @@
         </v-list-group>
 
         <v-list-group value="About">
-          <template #activator="{ isOpen, props }">
+          <template #activator="{ props }">
             <v-list-item v-bind="props" title="About">
               <template #prepend>
                 <v-icon icon="fa-solid fa-circle-info" />
@@ -86,8 +86,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, defineProps, defineEmits } from "vue";
-import { useDisplay } from "vuetify";
+import { computed } from "vue";
 import { useThemeStore } from "@/composables/themeStore";
 import { useChangelogsStore } from "@/composables/changelogsStore";
 
@@ -97,7 +96,6 @@ const emit = defineEmits<{
   (e: "refresh"): void;
 }>();
 
-const { mobile } = useDisplay();
 const themeStore = useThemeStore();
 const changelogStore = useChangelogsStore();
 

@@ -42,7 +42,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps, reactive } from "vue";
+import { ref, reactive } from "vue";
 import { useElementHover, useDateFormat, useTimeAgo } from "@vueuse/core";
 import { useSanitiseHtml } from "@/composables/sanitiseHtml";
 import { type NewsArticle } from "@/composables/changelogsStore";
