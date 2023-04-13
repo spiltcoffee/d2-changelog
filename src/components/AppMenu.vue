@@ -3,7 +3,7 @@
     <div class="d-flex flex-column h-100">
       <v-list density="compact">
         <v-list-group>
-          <template #activator="{ props }">
+          <template #activator="{ props }: { props: any }">
             <v-list-item v-bind="props" title="Settings">
               <template #prepend>
                 <v-icon icon="fa-solid fa-gear" />
@@ -37,7 +37,7 @@
         </v-list-group>
 
         <v-list-group value="About">
-          <template #activator="{ props }">
+          <template #activator="{ props }: { props: any }">
             <v-list-item v-bind="props" title="About">
               <template #prepend>
                 <v-icon icon="fa-solid fa-circle-info" />
@@ -104,7 +104,5 @@ const isShowing = computed({
   set: (value: boolean) => emit("update:showMenu", value),
 });
 
-const isDarkMode = computed({
-  get: () => themeStore.darkMode,
-});
+const isDarkMode = computed(() => themeStore.darkMode);
 </script>

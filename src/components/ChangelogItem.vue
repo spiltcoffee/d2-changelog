@@ -56,8 +56,8 @@ const changelog = reactive({
   id: props.changelog.UniqueIdentifier,
   title: props.changelog.Title,
   subtitle: props.changelog.Description,
-  content: useSanitiseHtml(props.changelog.HtmlContent),
-  extUrl: new URL(props.changelog.Link, "https://www.bungie.net"),
+  content: useSanitiseHtml(props.changelog.HtmlContent || ""),
+  extUrl: new URL(props.changelog.Link, "https://www.bungie.net").toString(),
   formattedDate: useDateFormat(props.changelog.PubDate, "DD/MM/YYYY"),
   formattedSince: useTimeAgo(props.changelog.PubDate),
 });
