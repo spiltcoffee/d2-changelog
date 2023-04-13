@@ -9,11 +9,11 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
 import AppBar from "@/components/AppBar.vue";
 import AppMenu from "@/components/AppMenu.vue";
 import ChangelogList from "@/components/ChangelogList.vue";
 import { useThemeStore } from "@/composables/themeStore";
+import { ref } from "vue";
 
 const showMenu = ref(false);
 

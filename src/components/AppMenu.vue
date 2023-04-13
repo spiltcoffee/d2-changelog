@@ -86,9 +86,9 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from "vue";
 import { useChangelogsStore } from "@/composables/changelogsStore";
 import { useThemeStore } from "@/composables/themeStore";
+import { computed } from "vue";
 
 const props = defineProps<{ showMenu: boolean }>();
 const emit = defineEmits<{

@@ -1,4 +1,3 @@
-import type { App } from "vue";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -17,6 +16,7 @@ import {
   faToggleOn,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import type { App } from "vue";
 
 export default async function loadIcons(app: App) {
   library.add(
