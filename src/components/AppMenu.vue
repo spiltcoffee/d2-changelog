@@ -87,8 +87,8 @@
 
 <script setup lang="ts">
 import { computed } from "vue";
-import { useThemeStore } from "@/composables/themeStore";
 import { useChangelogsStore } from "@/composables/changelogsStore";
+import { useThemeStore } from "@/composables/themeStore";
 
 const props = defineProps<{ showMenu: boolean }>();
 const emit = defineEmits<{

@@ -1,9 +1,9 @@
 import type { App } from "vue";
-import vuetify from "./vuetify";
-import pinia from "./pinia";
-import icons from "./icons";
 import fonts from "./fonts";
+import icons from "./icons";
+import pinia from "./pinia";
+import vuetify from "./vuetify";
 
 export function registerPlugins(app: App) {
-  app.use(vuetify).use(pinia).use(icons).use(fonts);
+  app.use(fonts).use(icons).use(pinia).use(vuetify);
 }

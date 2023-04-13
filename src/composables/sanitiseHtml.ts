@@ -1,5 +1,5 @@
-import { type Ref, ref, isRef, unref, watchEffect } from "vue";
 import createDOMpurify from "dompurify";
+import { type Ref, isRef, ref, unref, watchEffect } from "vue";
 
 export function useSanitiseHtml(unsafeHtml: string | Ref) {
   const safeHtml = ref("");

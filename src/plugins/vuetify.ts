@@ -1,7 +1,7 @@
 import "vuetify/styles";
-import { createVuetify } from "vuetify";
-import { VSkeletonLoader } from "vuetify/labs/VSkeletonLoader";
 import { aliases, fa } from "vuetify/iconsets/fa-svg";
+import { VSkeletonLoader } from "vuetify/labs/VSkeletonLoader";
+import { createVuetify } from "vuetify";
 
 export default createVuetify({
   components: {

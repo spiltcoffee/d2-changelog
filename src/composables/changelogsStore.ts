@@ -1,7 +1,7 @@
+import { useLocalStorage } from "@vueuse/core";
+import axios from "axios";
 import { computed, ref } from "vue";
 import { defineStore } from "pinia";
-import axios from "axios";
-import { useLocalStorage } from "@vueuse/core";
 
 // some twabs ended up in the updates category by mistake :/
 const twabRegex = new RegExp("this week at bungie", "i");

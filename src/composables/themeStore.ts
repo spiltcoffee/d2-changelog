@@ -1,6 +1,6 @@
+import { useLocalStorage } from "@vueuse/core";
 import { defineStore } from "pinia";
 import { useTheme } from "vuetify";
-import { useLocalStorage } from "@vueuse/core";
 
 export const useThemeStore = defineStore("theme", () => {
   const theme = useTheme();

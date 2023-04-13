@@ -42,10 +42,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref, reactive } from "vue";
-import { useElementHover, useDateFormat, useTimeAgo } from "@vueuse/core";
-import { useSanitiseHtml } from "@/composables/sanitiseHtml";
+import { useDateFormat, useElementHover, useTimeAgo } from "@vueuse/core";
+import { reactive, ref } from "vue";
 import { type NewsArticle } from "@/composables/changelogsStore";
+import { useSanitiseHtml } from "@/composables/sanitiseHtml";
 
 const props = defineProps<{ changelog: NewsArticle }>();
 

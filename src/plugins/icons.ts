@@ -1,22 +1,22 @@
 import type { App } from "vue";
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
+  faArrowUpRightFromSquare,
   faBars,
-  faLink,
-  faCodeMerge,
-  faGlobe,
-  faRotate,
-  faToggleOn,
-  faToggleOff,
   faChevronDown,
   faChevronUp,
-  faGear,
-  faExclamationTriangle,
   faCircleInfo,
-  faArrowUpRightFromSquare,
+  faCodeMerge,
+  faExclamationTriangle,
+  faGear,
+  faGlobe,
+  faLink,
+  faRotate,
+  faToggleOff,
+  faToggleOn,
 } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 export default async function loadIcons(app: App) {
   library.add(
