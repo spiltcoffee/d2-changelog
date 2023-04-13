@@ -3,8 +3,8 @@
     <div class="d-flex flex-column h-100">
       <v-list density="compact">
         <v-list-group>
-          <template #activator="{ props }: { props: any }">
-            <v-list-item v-bind="props" title="Settings">
+          <template #activator="bindings">
+            <v-list-item v-bind="(bindings as any).props" title="Settings">
               <template #prepend>
                 <v-icon icon="fa-solid fa-gear" />
               </template>
@@ -37,8 +37,8 @@
         </v-list-group>
 
         <v-list-group value="About">
-          <template #activator="{ props }: { props: any }">
-            <v-list-item v-bind="props" title="About">
+          <template #activator="bindings">
+            <v-list-item v-bind="(bindings as any).props" title="About">
               <template #prepend>
                 <v-icon icon="fa-solid fa-circle-info" />
               </template>
