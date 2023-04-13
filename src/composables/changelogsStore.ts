@@ -1,6 +1,6 @@
-import { useLocalStorage } from "@vueuse/core";
 import axios from "axios";
 import { computed, ref } from "vue";
+import { useLocalStorage } from "@vueuse/core";
 import { defineStore } from "pinia";
 
 // some twabs ended up in the updates category by mistake :/

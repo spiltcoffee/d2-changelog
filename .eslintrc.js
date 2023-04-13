@@ -9,6 +9,7 @@ module.exports = {
     "plugin:import/recommended",
     "@vue/eslint-config-typescript",
     "plugin:import/typescript",
+    "plugin:prettier/recommended",
   ],
   settings: {
     "import/internal-regex": "^@/",

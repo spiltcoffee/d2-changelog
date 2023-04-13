@@ -22,10 +22,10 @@
 </template>
 
 <script setup lang="ts">
-import { computedAsync } from "@vueuse/core";
 import { ref } from "vue";
 import ChangelogItem from "@/components/ChangelogItem.vue";
 import { useChangelogsStore } from "@/composables/changelogsStore";
+import { computedAsync } from "@vueuse/core";
 import { storeToRefs } from "pinia";
 
 const changelogStore = useChangelogsStore();
