@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/free-regular-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/vue-fontawesome", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3"],\
-            ["@mdi/font", "npm:7.0.96"],\
+            ["@mdi/font", "npm:7.2.96"],\
             ["@types/dompurify", "npm:3.0.1"],\
             ["@types/node", "npm:18.15.11"],\
             ["@types/webfontloader", "npm:1.6.35"],\
@@ -306,10 +306,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@mdi/font", [\
-        ["npm:7.0.96", {\
-          "packageLocation": "./.yarn/cache/@mdi-font-npm-7.0.96-a7b8101819-3bc71dc45e.zip/node_modules/@mdi/font/",\
+        ["npm:7.2.96", {\
+          "packageLocation": "./.yarn/cache/@mdi-font-npm-7.2.96-1728e88270-f193bb9917.zip/node_modules/@mdi/font/",\
           "packageDependencies": [\
-            ["@mdi/font", "npm:7.0.96"]\
+            ["@mdi/font", "npm:7.2.96"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1762,7 +1762,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/free-regular-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/vue-fontawesome", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3"],\
-            ["@mdi/font", "npm:7.0.96"],\
+            ["@mdi/font", "npm:7.2.96"],\
             ["@types/dompurify", "npm:3.0.1"],\
             ["@types/node", "npm:18.15.11"],\
             ["@types/webfontloader", "npm:1.6.35"],\
