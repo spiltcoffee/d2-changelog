@@ -20,20 +20,20 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 export default async function loadIcons(app: App) {
   library.add(
+    faGithub,
+    faArrowUpRightFromSquare,
     faBars,
-    faLink,
-    faCodeMerge,
-    faGlobe,
-    faRotate,
-    faToggleOn,
-    faToggleOff,
     faChevronDown,
     faChevronUp,
-    faGear,
-    faExclamationTriangle,
     faCircleInfo,
-    faArrowUpRightFromSquare,
-    faGithub
+    faCodeMerge,
+    faExclamationTriangle,
+    faGear,
+    faGlobe,
+    faLink,
+    faRotate,
+    faToggleOff,
+    faToggleOn
   );
 
   app.component("font-awesome-icon", FontAwesomeIcon);
