@@ -5,7 +5,7 @@ import { computed, ref } from "vue";
 
 // some twabs ended up in the updates category by mistake :/
 const twabRegex = new RegExp("this week at bungie", "i");
-const API_KEY = "1bca7bd966af4a8f9628addbb73f241c";
+const API_KEY = import.meta.env.D2_CHANGELOG_API_KEY;
 
 interface NewsArticlesData {
   Response: {
