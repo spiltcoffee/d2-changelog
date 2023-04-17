@@ -724,57 +724,59 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@volar/language-core@npm:1.4.0-alpha.7":
-  version: 1.4.0-alpha.7
-  resolution: "@volar/language-core@npm:1.4.0-alpha.7"
+"@volar/language-core@npm:1.4.0-alpha.11":
+  version: 1.4.0-alpha.11
+  resolution: "@volar/language-core@npm:1.4.0-alpha.11"
   dependencies:
-    "@volar/source-map": 1.4.0-alpha.7
-  checksum: 462b68af76cb53046cf5b2361cf04e7f11d9c3e66189e290b93c2416085a6d38b14bbcbd71465db66148091b64e6ff309c297d185cc425408c13a4131af75478
+    "@volar/source-map": 1.4.0-alpha.11
+  checksum: a76472f1c8d8c32f653fca026a243a69b7c4906128eba38f82a0b87d9f65e00cee0777ba079bbb9bc19e4f06092ef49418413d4b087686a3821cc32f1897ea29
   languageName: node
   linkType: hard
 
-"@volar/source-map@npm:1.4.0-alpha.7":
-  version: 1.4.0-alpha.7
-  resolution: "@volar/source-map@npm:1.4.0-alpha.7"
+"@volar/source-map@npm:1.4.0-alpha.11":
+  version: 1.4.0-alpha.11
+  resolution: "@volar/source-map@npm:1.4.0-alpha.11"
   dependencies:
     muggle-string: ^0.2.2
-  checksum: 8dd8e6955e0b860fe5995335e7e7fe9d61569470e99b09cfd54cb168d08aef4bebb06f190996d0322a9cd8d847ce445d94c883cc26a7e3d2d84bc6208899ffc8
+  checksum: 56e1c32d06c240acab561e9df4bf2aa01f7bb1c0398f058cfa1ffc95a02b8d076f20c7ebce983f2a357f17217407f9f677cf87b56c3ec9b5c95a280a0a199f51
   languageName: node
   linkType: hard
 
-"@volar/typescript@npm:1.4.0-alpha.7":
-  version: 1.4.0-alpha.7
-  resolution: "@volar/typescript@npm:1.4.0-alpha.7"
+"@volar/typescript@npm:1.4.0-alpha.11":
+  version: 1.4.0-alpha.11
+  resolution: "@volar/typescript@npm:1.4.0-alpha.11"
   dependencies:
-    "@volar/language-core": 1.4.0-alpha.7
-  checksum: 2df43d14bf17ab12a50bdd9eeacbee9c6222e0e52ddd112f17651bf160cc7e400dde8ded54ab4fb68713242a63d8a08b6db5e0b83368677d0ffb4a8f4bff44c4
+    "@volar/language-core": 1.4.0-alpha.11
+  peerDependencies:
+    typescript: "*"
+  checksum: f7757cc653bb63f672946a1d2d8dcadb3492bacea587aea8f921ee29082d269ce2011d0d5287478965d09f4b1296389607feed295837b29d726558b7c4aa6356
   languageName: node
   linkType: hard
 
-"@volar/vue-language-core@npm:1.3.14":
-  version: 1.3.14
-  resolution: "@volar/vue-language-core@npm:1.3.14"
+"@volar/vue-language-core@npm:1.3.17":
+  version: 1.3.17
+  resolution: "@volar/vue-language-core@npm:1.3.17"
   dependencies:
-    "@volar/language-core": 1.4.0-alpha.7
-    "@volar/source-map": 1.4.0-alpha.7
+    "@volar/language-core": 1.4.0-alpha.11
+    "@volar/source-map": 1.4.0-alpha.11
     "@vue/compiler-dom": ^3.2.0
     "@vue/compiler-sfc": ^3.2.0
     "@vue/reactivity": ^3.2.0
     "@vue/shared": ^3.2.0
-    minimatch: ^6.1.6
+    minimatch: ^9.0.0
     muggle-string: ^0.2.2
     vue-template-compiler: ^2.7.14
-  checksum: 018da248bf9ea5f6919f444c08905de7f461dc0c0dee8d80a137619687b85a25c0ac9c351cba3b1219d17be3e444555e39ef0736bcc43afa502d9e83d023f7b3
+  checksum: c81ba91904fb0484c8cbe0e2c39883cc8b44fda79a753685bb529c1ae707ffc0d88a9bb8b2feab297a6d57e7cf11c30dbc102c7e479c8ce1cc20b168465cbcba
   languageName: node
   linkType: hard
 
-"@volar/vue-typescript@npm:1.3.14":
-  version: 1.3.14
-  resolution: "@volar/vue-typescript@npm:1.3.14"
+"@volar/vue-typescript@npm:1.3.17":
+  version: 1.3.17
+  resolution: "@volar/vue-typescript@npm:1.3.17"
   dependencies:
-    "@volar/typescript": 1.4.0-alpha.7
-    "@volar/vue-language-core": 1.3.14
-  checksum: 23b38ce7511ffb7f7314e501d64d438148079477fc93d0582d0b02696d4953b82068b25841e87d65bd2861f91d834d22d5d7f15235e1993dd789305afb746e9e
+    "@volar/typescript": 1.4.0-alpha.11
+    "@volar/vue-language-core": 1.3.17
+  checksum: cf975e29ffb3326c865736e1d443d2e0e1057ba194e96840ab70e4a4772f0f2e758a5f5929ac3fc27dde5f3f159d466d1a2c1c710fefdbc384235edc2477c1f0
   languageName: node
   linkType: hard
 
@@ -1367,7 +1369,7 @@ __metadata:
     vite-plugin-vuetify: ^1.0.0-alpha.12
     vue: ^3.2.38
     vue-router: 4
-    vue-tsc: ^1.3.14
+    vue-tsc: ^1.3.17
     vuetify: ^3.1.14
     webfontloader: ^1.6.28
   languageName: unknown
@@ -2889,12 +2891,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^6.1.6":
-  version: 6.2.0
-  resolution: "minimatch@npm:6.2.0"
+"minimatch@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "minimatch@npm:9.0.0"
   dependencies:
     brace-expansion: ^2.0.1
-  checksum: 0ffb77d05bd483fcc344ba3e64a501d569e658fa6c592d94e9716ffc7925de7a8c2ac294cafa822b160bd8b2cbf7e01012917e06ffb9a85cfa9604629b3f2c04
+  checksum: 7bd57899edd1d1b0560f50b5b2d1ea4ad2a366c5a2c8e0a943372cf2f200b64c256bae45a87a80915adbce27fa36526264296ace0da57b600481fe5ea3e372e5
   languageName: node
   linkType: hard
 
@@ -4090,18 +4092,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-tsc@npm:^1.3.14":
-  version: 1.3.14
-  resolution: "vue-tsc@npm:1.3.14"
+"vue-tsc@npm:^1.3.17":
+  version: 1.3.17
+  resolution: "vue-tsc@npm:1.3.17"
   dependencies:
-    "@volar/vue-language-core": 1.3.14
-    "@volar/vue-typescript": 1.3.14
+    "@volar/vue-language-core": 1.3.17
+    "@volar/vue-typescript": 1.3.17
     semver: ^7.3.8
   peerDependencies:
     typescript: "*"
   bin:
     vue-tsc: bin/vue-tsc.js
-  checksum: 13ffded39bb748c375e84d38e7834f0001ba2ad25f6fc101bb22e47483c5533c8c0b5abc378158028f0f618ea00738c6e49435979054ba8fb3b100d046666ab0
+  checksum: 5174e111c820d8c10d97a5afe8476768f9275caa24e52d8dda8d40ec231096629286d4c7b49f64a3edcb5fac4bca46ad016a35698d2b8aa1d16a47875b80ccc7
   languageName: node
   linkType: hard
 
