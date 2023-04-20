@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/vue-fontawesome", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3"],\
             ["@mdi/font", "npm:7.2.96"],\
-            ["@types/dompurify", "npm:3.0.1"],\
+            ["@types/dompurify", "npm:3.0.2"],\
             ["@types/node", "npm:18.15.12"],\
             ["@types/webfontloader", "npm:1.6.35"],\
             ["@typescript-eslint/eslint-plugin", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:5.59.0"],\
@@ -563,24 +563,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/dompurify", [\
-        ["npm:3.0.1", {\
-          "packageLocation": "./.yarn/cache/@types-dompurify-npm-3.0.1-5ab1e1878d-d4bf881845.zip/node_modules/@types/dompurify/",\
+        ["npm:3.0.2", {\
+          "packageLocation": "./.yarn/cache/@types-dompurify-npm-3.0.2-57e9f73fdf-dc017e16a4.zip/node_modules/@types/dompurify/",\
           "packageDependencies": [\
-            ["@types/dompurify", "npm:3.0.1"],\
-            ["@types/jsdom", "npm:21.1.1"],\
+            ["@types/dompurify", "npm:3.0.2"],\
             ["@types/trusted-types", "npm:2.0.3"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@types/jsdom", [\
-        ["npm:21.1.1", {\
-          "packageLocation": "./.yarn/cache/@types-jsdom-npm-21.1.1-4175e6dd27-7450d6e23a.zip/node_modules/@types/jsdom/",\
-          "packageDependencies": [\
-            ["@types/jsdom", "npm:21.1.1"],\
-            ["@types/node", "npm:18.15.11"],\
-            ["@types/tough-cookie", "npm:4.0.2"],\
-            ["parse5", "npm:7.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -604,13 +591,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:18.15.11", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.15.11-fd8ceaaffd-977b4ad047.zip/node_modules/@types/node/",\
-          "packageDependencies": [\
-            ["@types/node", "npm:18.15.11"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:18.15.12", {\
           "packageLocation": "./.yarn/cache/@types-node-npm-18.15.12-c785f88018-dff7596db8.zip/node_modules/@types/node/",\
           "packageDependencies": [\
@@ -624,15 +604,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-semver-npm-7.3.13-56212b60da-00c0724d54.zip/node_modules/@types/semver/",\
           "packageDependencies": [\
             ["@types/semver", "npm:7.3.13"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@types/tough-cookie", [\
-        ["npm:4.0.2", {\
-          "packageLocation": "./.yarn/cache/@types-tough-cookie-npm-4.0.2-9e61f877e6-e055556ffd.zip/node_modules/@types/tough-cookie/",\
-          "packageDependencies": [\
-            ["@types/tough-cookie", "npm:4.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1855,7 +1826,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/vue-fontawesome", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3"],\
             ["@mdi/font", "npm:7.2.96"],\
-            ["@types/dompurify", "npm:3.0.1"],\
+            ["@types/dompurify", "npm:3.0.2"],\
             ["@types/node", "npm:18.15.12"],\
             ["@types/webfontloader", "npm:1.6.35"],\
             ["@typescript-eslint/eslint-plugin", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:5.59.0"],\
@@ -2058,15 +2029,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["enhanced-resolve", "npm:5.12.0"],\
             ["graceful-fs", "npm:4.2.11"],\
             ["tapable", "npm:2.2.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["entities", [\
-        ["npm:4.4.0", {\
-          "packageLocation": "./.yarn/cache/entities-npm-4.4.0-97635dc5cc-84d250329f.zip/node_modules/entities/",\
-          "packageDependencies": [\
-            ["entities", "npm:4.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4038,16 +4000,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["parent-module", "npm:1.0.1"],\
             ["callsites", "npm:3.1.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["parse5", [\
-        ["npm:7.1.2", {\
-          "packageLocation": "./.yarn/cache/parse5-npm-7.1.2-aa9a92c270-59465dd05e.zip/node_modules/parse5/",\
-          "packageDependencies": [\
-            ["parse5", "npm:7.1.2"],\
-            ["entities", "npm:4.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
