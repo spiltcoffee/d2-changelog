@@ -1370,7 +1370,7 @@ __metadata:
     vue: ^3.2.38
     vue-router: 4
     vue-tsc: ^1.3.17
-    vuetify: ^3.1.14
+    vuetify: ^3.1.15
     webfontloader: ^1.6.28
   languageName: unknown
   linkType: soft
@@ -4119,9 +4119,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuetify@npm:^3.1.14":
-  version: 3.1.14
-  resolution: "vuetify@npm:3.1.14"
+"vuetify@npm:^3.1.15":
+  version: 3.1.15
+  resolution: "vuetify@npm:3.1.15"
   peerDependencies:
     vite-plugin-vuetify: ^1.0.0-alpha.12
     vue: ^3.2.0
@@ -4134,7 +4134,7 @@ __metadata:
       optional: true
     webpack-plugin-vuetify:
       optional: true
-  checksum: 6f8b28eb17e29c715a587220ffa234827c0f2805988ddcd90195031255b2a4c18a52ed5ef1e48bf458cfe497eb344992eecc6613bf0072bf9e18a2a3713df06f
+  checksum: 0109e9bcdcc4aff8010ded1961db15b11666eca5a7ae1579f0455672032a894f74acabb9cd9f8a60a97ef0ef5cac526af59055e7de74b4305abf0dbe14f99f38
   languageName: node
   linkType: hard
 
