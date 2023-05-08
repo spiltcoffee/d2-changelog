@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/eslint-config-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:11.0.3"],\
             ["@vueuse/core", "npm:10.1.2"],\
             ["axios", "npm:1.4.0"],\
-            ["dompurify", "npm:3.0.2"],\
+            ["dompurify", "npm:3.0.3"],\
             ["eslint", "npm:8.40.0"],\
             ["eslint-config-prettier", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:8.8.0"],\
             ["eslint-import-resolver-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.5.5"],\
@@ -1938,7 +1938,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/eslint-config-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:11.0.3"],\
             ["@vueuse/core", "npm:10.1.2"],\
             ["axios", "npm:1.4.0"],\
-            ["dompurify", "npm:3.0.2"],\
+            ["dompurify", "npm:3.0.3"],\
             ["eslint", "npm:8.40.0"],\
             ["eslint-config-prettier", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:8.8.0"],\
             ["eslint-import-resolver-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.5.5"],\
@@ -2098,10 +2098,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["dompurify", [\
-        ["npm:3.0.2", {\
-          "packageLocation": "./.yarn/cache/dompurify-npm-3.0.2-952ac43ff7-768c3bb2f1.zip/node_modules/dompurify/",\
+        ["npm:3.0.3", {\
+          "packageLocation": "./.yarn/cache/dompurify-npm-3.0.3-7db713c9bd-02242f2fe6.zip/node_modules/dompurify/",\
           "packageDependencies": [\
-            ["dompurify", "npm:3.0.2"]\
+            ["dompurify", "npm:3.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
