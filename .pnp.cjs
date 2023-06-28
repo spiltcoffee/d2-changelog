@@ -53,7 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pinia", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:2.1.4"],\
             ["prettier", "npm:2.8.8"],\
             ["roboto-fontface", "npm:0.10.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"],\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"],\
             ["vite", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.3.9"],\
             ["vite-plugin-vuetify", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:1.0.2"],\
             ["vue", "npm:3.3.4"],\
@@ -678,7 +678,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["natural-compare-lite", "npm:1.4.0"],\
             ["semver", "npm:7.3.8"],\
             ["tsutils", "virtual:dcfce63aa47d29506261a1fdd3a453be7d63e94797281d559f6f18ed98cef1c1eee40b1be27f84d4e1b8e03a7fdbe50c9979f917b22d6ba909603d3c01319478#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -709,7 +709,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["natural-compare-lite", "npm:1.4.0"],\
             ["semver", "npm:7.3.8"],\
             ["tsutils", "virtual:dcfce63aa47d29506261a1fdd3a453be7d63e94797281d559f6f18ed98cef1c1eee40b1be27f84d4e1b8e03a7fdbe50c9979f917b22d6ba909603d3c01319478#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -748,7 +748,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/typescript-estree", "virtual:615027ed182d464994b35925ff9fe9a969aebda181550b6829f9e6f3016dc30f738696a223b580ff62a24ae2a286e67d0f4cab53078d4836d8501517a5f110fb#npm:5.60.1"],\
             ["debug", "virtual:531b6e79f7bcef9fa432316ab3ce4b1417df151c8e8350181023a666d55724fcedfdfe50cba6ee7c25a5adbd4f024013f036b79fb10bed8621708e2f7d85e6c6#npm:4.3.4"],\
             ["eslint", "npm:8.43.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -769,7 +769,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/typescript-estree", "virtual:67e6f14a2a053821db92aec71cbd455d55edf9fe369c6a531fcfc28c7eac0117bcfa00af05a03a9399c0ba29218d5a6d5864475cc7e70425ff6c2ff78cab801a#npm:5.59.1"],\
             ["debug", "virtual:531b6e79f7bcef9fa432316ab3ce4b1417df151c8e8350181023a666d55724fcedfdfe50cba6ee7c25a5adbd4f024013f036b79fb10bed8621708e2f7d85e6c6#npm:4.3.4"],\
             ["eslint", "npm:8.43.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -826,7 +826,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:531b6e79f7bcef9fa432316ab3ce4b1417df151c8e8350181023a666d55724fcedfdfe50cba6ee7c25a5adbd4f024013f036b79fb10bed8621708e2f7d85e6c6#npm:4.3.4"],\
             ["eslint", "npm:8.43.0"],\
             ["tsutils", "virtual:dcfce63aa47d29506261a1fdd3a453be7d63e94797281d559f6f18ed98cef1c1eee40b1be27f84d4e1b8e03a7fdbe50c9979f917b22d6ba909603d3c01319478#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -847,7 +847,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:531b6e79f7bcef9fa432316ab3ce4b1417df151c8e8350181023a666d55724fcedfdfe50cba6ee7c25a5adbd4f024013f036b79fb10bed8621708e2f7d85e6c6#npm:4.3.4"],\
             ["eslint", "npm:8.43.0"],\
             ["tsutils", "virtual:dcfce63aa47d29506261a1fdd3a453be7d63e94797281d559f6f18ed98cef1c1eee40b1be27f84d4e1b8e03a7fdbe50c9979f917b22d6ba909603d3c01319478#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -921,7 +921,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-glob", "npm:4.0.3"],\
             ["semver", "npm:7.3.8"],\
             ["tsutils", "virtual:dcfce63aa47d29506261a1fdd3a453be7d63e94797281d559f6f18ed98cef1c1eee40b1be27f84d4e1b8e03a7fdbe50c9979f917b22d6ba909603d3c01319478#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -941,7 +941,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-glob", "npm:4.0.3"],\
             ["semver", "npm:7.3.8"],\
             ["tsutils", "virtual:dcfce63aa47d29506261a1fdd3a453be7d63e94797281d559f6f18ed98cef1c1eee40b1be27f84d4e1b8e03a7fdbe50c9979f917b22d6ba909603d3c01319478#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -1206,7 +1206,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:df526c8987dc424b0dd704942eff9c3ea53dd47a614e1232e07a6f7e8fbe5b426e010a05c5df38ab5316106e01eb17ae848769d0c018915abb46e9791d819103#npm:5.59.1"],\
             ["eslint", "npm:8.43.0"],\
             ["eslint-plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:9.15.1"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"],\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"],\
             ["vue-eslint-parser", "virtual:df526c8987dc424b0dd704942eff9c3ea53dd47a614e1232e07a6f7e8fbe5b426e010a05c5df38ab5316106e01eb17ae848769d0c018915abb46e9791d819103#npm:9.1.1"]\
           ],\
           "packagePeers": [\
@@ -1261,7 +1261,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/shared", "npm:3.3.2"],\
             ["minimatch", "npm:9.0.0"],\
             ["muggle-string", "npm:0.3.1"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"],\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"],\
             ["vue-template-compiler", "npm:2.7.14"]\
           ],\
           "packagePeers": [\
@@ -1909,7 +1909,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pinia", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:2.1.4"],\
             ["prettier", "npm:2.8.8"],\
             ["roboto-fontface", "npm:0.10.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"],\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"],\
             ["vite", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.3.9"],\
             ["vite-plugin-vuetify", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:1.0.2"],\
             ["vue", "npm:3.3.4"],\
@@ -4173,7 +4173,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/vue__composition-api", null],\
             ["@vue/composition-api", null],\
             ["@vue/devtools-api", "npm:6.5.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"],\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"],\
             ["vue", "npm:3.3.4"],\
             ["vue-demi", "virtual:8a4de5b722da4248e966b8fefa5afe05b9b8e33ab99116f0892a26e728fba7e78266ec9f0a81c55ebb0566fd2b29d70fcdacb4b4704ee7e7efcd4e31b65b93a9#npm:0.14.5"]\
           ],\
@@ -4828,7 +4828,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tsutils", "virtual:dcfce63aa47d29506261a1fdd3a453be7d63e94797281d559f6f18ed98cef1c1eee40b1be27f84d4e1b8e03a7fdbe50c9979f917b22d6ba909603d3c01319478#npm:3.21.0"],\
             ["@types/typescript", null],\
             ["tslib", "npm:1.14.1"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -4869,10 +4869,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-260000abbe-bb309d320c.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-8758d9b8da-33020c886b.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5178,7 +5178,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/language-core", "virtual:e3c9625b370c90e4325db39f43848acd51077fa2940d52d554bcd826725cefc362a4939663dff24a3661d66fa2a5a6e1b7a744a52c626b26013ddb3f2cd334ec#npm:1.8.3"],\
             ["@vue/typescript", "npm:1.8.3"],\
             ["semver", "npm:7.4.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -5204,7 +5204,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/vue", null],\
             ["@types/vue-i18n", null],\
             ["@types/webpack-plugin-vuetify", null],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"],\
+            ["typescript", "patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=85af82"],\
             ["vite-plugin-vuetify", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:1.0.2"],\
             ["vue", "npm:3.3.4"],\
             ["vue-i18n", null],\
