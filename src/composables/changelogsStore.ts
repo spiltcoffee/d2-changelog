@@ -88,12 +88,12 @@ export const useChangelogsStore = defineStore("changelogs", () => {
 
       if (data.ErrorCode !== 1) {
         throw new Error(
-          `Error while fetching ${url}: ${data.ErrorStatus} (${data.ErrorCode})`
+          `Error while fetching ${url}: ${data.ErrorStatus} (${data.ErrorCode})`,
         );
       }
 
       const changelogs = data.Response.NewsArticles.filter(
-        ({ Title }) => !twabRegex.test(Title)
+        ({ Title }) => !twabRegex.test(Title),
       );
 
       const hasNextPage = !!data.Response.NextPaginationToken;

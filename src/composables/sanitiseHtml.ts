@@ -29,7 +29,7 @@ class Purify {
           case "IMG":
             return Purify.handleImage(currentNode as HTMLImageElement);
         }
-      }
+      },
     );
   }
 

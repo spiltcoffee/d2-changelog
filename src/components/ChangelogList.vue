@@ -45,6 +45,6 @@ const changelogs = computedAsync(
   {
     evaluating: isLoading,
     onError: () => (hasError.value = true),
-  }
+  },
 );
 </script>
