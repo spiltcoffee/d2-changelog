@@ -92,8 +92,8 @@ import { computed } from "vue";
 
 const props = defineProps<{ showMenu: boolean }>();
 const emit = defineEmits<{
-  (e: "update:showMenu", value: boolean): void;
-  (e: "refresh"): void;
+  "update:showMenu": [value: boolean];
+  refresh: [];
 }>();
 
 const themeStore = useThemeStore();
