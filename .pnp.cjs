@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:6.0.0"],\
             ["@vitejs/plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.2.3"],\
             ["@vue/eslint-config-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:11.0.3"],\
-            ["@vueuse/core", "npm:10.2.1"],\
+            ["@vueuse/core", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:10.2.1"],\
             ["axios", "npm:1.4.0"],\
             ["dompurify", "npm:3.0.4"],\
             ["eslint", "npm:8.44.0"],\
@@ -1453,11 +1453,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["npm:10.2.1", {\
           "packageLocation": "./.yarn/cache/@vueuse-core-npm-10.2.1-ba08c7755e-1a7a7ad837.zip/node_modules/@vueuse/core/",\
           "packageDependencies": [\
-            ["@vueuse/core", "npm:10.2.1"],\
+            ["@vueuse/core", "npm:10.2.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:10.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@vueuse-core-virtual-8889981d97/0/cache/@vueuse-core-npm-10.2.1-ba08c7755e-1a7a7ad837.zip/node_modules/@vueuse/core/",\
+          "packageDependencies": [\
+            ["@vueuse/core", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:10.2.1"],\
+            ["@types/vue", null],\
             ["@types/web-bluetooth", "npm:0.0.17"],\
             ["@vueuse/metadata", "npm:10.2.1"],\
-            ["@vueuse/shared", "npm:10.2.1"],\
-            ["vue-demi", "virtual:9118f52792452c81f123404f34d022f96da915129bc8c192d25e745a0e8fb3572a6a26f322c643a06cfa1bb66cc764206a2bac67847b6d65ebc9dcf600c65d02#npm:0.14.5"]\
+            ["@vueuse/shared", "virtual:8889981d97adfbd0a3316dbce9fae833741f9fa87a863f0df5d8c2d2923c2cd4cec879d04bfc1d49c9a478d1b9a14b0b592850a23b6ba7a2dcdaf72beeb3bc62#npm:10.2.1"],\
+            ["vue", "npm:3.3.4"],\
+            ["vue-demi", "virtual:8889981d97adfbd0a3316dbce9fae833741f9fa87a863f0df5d8c2d2923c2cd4cec879d04bfc1d49c9a478d1b9a14b0b592850a23b6ba7a2dcdaf72beeb3bc62#npm:0.14.5"]\
+          ],\
+          "packagePeers": [\
+            "@types/vue",\
+            "vue"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1475,8 +1488,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["npm:10.2.1", {\
           "packageLocation": "./.yarn/cache/@vueuse-shared-npm-10.2.1-9118f52792-eeb19c0448.zip/node_modules/@vueuse/shared/",\
           "packageDependencies": [\
-            ["@vueuse/shared", "npm:10.2.1"],\
-            ["vue-demi", "virtual:9118f52792452c81f123404f34d022f96da915129bc8c192d25e745a0e8fb3572a6a26f322c643a06cfa1bb66cc764206a2bac67847b6d65ebc9dcf600c65d02#npm:0.14.5"]\
+            ["@vueuse/shared", "npm:10.2.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8889981d97adfbd0a3316dbce9fae833741f9fa87a863f0df5d8c2d2923c2cd4cec879d04bfc1d49c9a478d1b9a14b0b592850a23b6ba7a2dcdaf72beeb3bc62#npm:10.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@vueuse-shared-virtual-e89e656b98/0/cache/@vueuse-shared-npm-10.2.1-9118f52792-eeb19c0448.zip/node_modules/@vueuse/shared/",\
+          "packageDependencies": [\
+            ["@vueuse/shared", "virtual:8889981d97adfbd0a3316dbce9fae833741f9fa87a863f0df5d8c2d2923c2cd4cec879d04bfc1d49c9a478d1b9a14b0b592850a23b6ba7a2dcdaf72beeb3bc62#npm:10.2.1"],\
+            ["@types/vue", null],\
+            ["vue", "npm:3.3.4"],\
+            ["vue-demi", "virtual:8889981d97adfbd0a3316dbce9fae833741f9fa87a863f0df5d8c2d2923c2cd4cec879d04bfc1d49c9a478d1b9a14b0b592850a23b6ba7a2dcdaf72beeb3bc62#npm:0.14.5"]\
+          ],\
+          "packagePeers": [\
+            "@types/vue",\
+            "vue"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1941,7 +1967,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:6.0.0"],\
             ["@vitejs/plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.2.3"],\
             ["@vue/eslint-config-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:11.0.3"],\
-            ["@vueuse/core", "npm:10.2.1"],\
+            ["@vueuse/core", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:10.2.1"],\
             ["axios", "npm:1.4.0"],\
             ["dompurify", "npm:3.0.4"],\
             ["eslint", "npm:8.44.0"],\
@@ -4194,7 +4220,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/devtools-api", "npm:6.5.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["vue", "npm:3.3.4"],\
-            ["vue-demi", "virtual:8a4de5b722da4248e966b8fefa5afe05b9b8e33ab99116f0892a26e728fba7e78266ec9f0a81c55ebb0566fd2b29d70fcdacb4b4704ee7e7efcd4e31b65b93a9#npm:0.14.5"]\
+            ["vue-demi", "virtual:8889981d97adfbd0a3316dbce9fae833741f9fa87a863f0df5d8c2d2923c2cd4cec879d04bfc1d49c9a478d1b9a14b0b592850a23b6ba7a2dcdaf72beeb3bc62#npm:0.14.5"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -5071,37 +5097,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["vue-demi", [\
         ["npm:0.14.5", {\
-          "packageLocation": "./.yarn/unplugged/vue-demi-virtual-ba9e2d0e6f/node_modules/vue-demi/",\
+          "packageLocation": "./.yarn/unplugged/vue-demi-virtual-adc1c7817c/node_modules/vue-demi/",\
           "packageDependencies": [\
             ["vue-demi", "npm:0.14.5"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:8a4de5b722da4248e966b8fefa5afe05b9b8e33ab99116f0892a26e728fba7e78266ec9f0a81c55ebb0566fd2b29d70fcdacb4b4704ee7e7efcd4e31b65b93a9#npm:0.14.5", {\
-          "packageLocation": "./.yarn/unplugged/vue-demi-virtual-ba9e2d0e6f/node_modules/vue-demi/",\
+        ["virtual:8889981d97adfbd0a3316dbce9fae833741f9fa87a863f0df5d8c2d2923c2cd4cec879d04bfc1d49c9a478d1b9a14b0b592850a23b6ba7a2dcdaf72beeb3bc62#npm:0.14.5", {\
+          "packageLocation": "./.yarn/unplugged/vue-demi-virtual-adc1c7817c/node_modules/vue-demi/",\
           "packageDependencies": [\
-            ["vue-demi", "virtual:8a4de5b722da4248e966b8fefa5afe05b9b8e33ab99116f0892a26e728fba7e78266ec9f0a81c55ebb0566fd2b29d70fcdacb4b4704ee7e7efcd4e31b65b93a9#npm:0.14.5"],\
+            ["vue-demi", "virtual:8889981d97adfbd0a3316dbce9fae833741f9fa87a863f0df5d8c2d2923c2cd4cec879d04bfc1d49c9a478d1b9a14b0b592850a23b6ba7a2dcdaf72beeb3bc62#npm:0.14.5"],\
             ["@types/vue", null],\
             ["@types/vue__composition-api", null],\
             ["@vue/composition-api", null],\
             ["vue", "npm:3.3.4"]\
-          ],\
-          "packagePeers": [\
-            "@types/vue",\
-            "@types/vue__composition-api",\
-            "@vue/composition-api",\
-            "vue"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:9118f52792452c81f123404f34d022f96da915129bc8c192d25e745a0e8fb3572a6a26f322c643a06cfa1bb66cc764206a2bac67847b6d65ebc9dcf600c65d02#npm:0.14.5", {\
-          "packageLocation": "./.yarn/unplugged/vue-demi-virtual-c3b34245b0/node_modules/vue-demi/",\
-          "packageDependencies": [\
-            ["vue-demi", "virtual:9118f52792452c81f123404f34d022f96da915129bc8c192d25e745a0e8fb3572a6a26f322c643a06cfa1bb66cc764206a2bac67847b6d65ebc9dcf600c65d02#npm:0.14.5"],\
-            ["@types/vue", null],\
-            ["@types/vue__composition-api", null],\
-            ["@vue/composition-api", null],\
-            ["vue", null]\
           ],\
           "packagePeers": [\
             "@types/vue",\
