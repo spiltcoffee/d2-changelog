@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/eslint-config-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:11.0.3"],\
             ["@vueuse/core", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:10.2.1"],\
             ["axios", "npm:1.4.0"],\
-            ["dompurify", "npm:3.0.4"],\
+            ["dompurify", "npm:3.0.5"],\
             ["eslint", "npm:8.44.0"],\
             ["eslint-config-prettier", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:8.8.0"],\
             ["eslint-import-resolver-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.5.5"],\
@@ -1969,7 +1969,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/eslint-config-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:11.0.3"],\
             ["@vueuse/core", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:10.2.1"],\
             ["axios", "npm:1.4.0"],\
-            ["dompurify", "npm:3.0.4"],\
+            ["dompurify", "npm:3.0.5"],\
             ["eslint", "npm:8.44.0"],\
             ["eslint-config-prettier", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:8.8.0"],\
             ["eslint-import-resolver-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.5.5"],\
@@ -2129,10 +2129,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["dompurify", [\
-        ["npm:3.0.4", {\
-          "packageLocation": "./.yarn/cache/dompurify-npm-3.0.4-a33b0f6626-098de63959.zip/node_modules/dompurify/",\
+        ["npm:3.0.5", {\
+          "packageLocation": "./.yarn/cache/dompurify-npm-3.0.5-27fdde5676-2d9421570c.zip/node_modules/dompurify/",\
           "packageDependencies": [\
-            ["dompurify", "npm:3.0.4"]\
+            ["dompurify", "npm:3.0.5"]\
           ],\
           "linkType": "HARD"\
         }]\
