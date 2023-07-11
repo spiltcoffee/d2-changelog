@@ -33,7 +33,7 @@ export default async function loadIcons(app: App) {
     faLink,
     faRotate,
     faToggleOff,
-    faToggleOn
+    faToggleOn,
   );
 
   app.component("font-awesome-icon", FontAwesomeIcon);
