@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@fortawesome/fontawesome-svg-core", "npm:6.4.2"],\
-            ["@fortawesome/free-brands-svg-icons", "npm:6.4.0"],\
+            ["@fortawesome/free-brands-svg-icons", "npm:6.4.2"],\
             ["@fortawesome/free-regular-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/vue-fontawesome", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3"],\
@@ -405,11 +405,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@fortawesome/free-brands-svg-icons", [\
-        ["npm:6.4.0", {\
-          "packageLocation": "./.yarn/unplugged/@fortawesome-free-brands-svg-icons-npm-6.4.0-91e559767c/node_modules/@fortawesome/free-brands-svg-icons/",\
+        ["npm:6.4.2", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-free-brands-svg-icons-npm-6.4.2-e571a9405c/node_modules/@fortawesome/free-brands-svg-icons/",\
           "packageDependencies": [\
-            ["@fortawesome/free-brands-svg-icons", "npm:6.4.0"],\
-            ["@fortawesome/fontawesome-common-types", "npm:6.4.0"]\
+            ["@fortawesome/free-brands-svg-icons", "npm:6.4.2"],\
+            ["@fortawesome/fontawesome-common-types", "npm:6.4.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1989,7 +1989,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["d2-changelog", "workspace:."],\
             ["@fortawesome/fontawesome-svg-core", "npm:6.4.2"],\
-            ["@fortawesome/free-brands-svg-icons", "npm:6.4.0"],\
+            ["@fortawesome/free-brands-svg-icons", "npm:6.4.2"],\
             ["@fortawesome/free-regular-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/vue-fontawesome", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3"],\
