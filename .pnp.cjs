@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@fortawesome/fontawesome-svg-core", "npm:6.4.0"],\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.4.2"],\
             ["@fortawesome/free-brands-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/free-regular-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
@@ -385,14 +385,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/fontawesome-common-types", "npm:6.4.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:6.4.2", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-common-types-npm-6.4.2-1f8b184e1e/node_modules/@fortawesome/fontawesome-common-types/",\
+          "packageDependencies": [\
+            ["@fortawesome/fontawesome-common-types", "npm:6.4.2"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@fortawesome/fontawesome-svg-core", [\
-        ["npm:6.4.0", {\
-          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-svg-core-npm-6.4.0-bc7699426e/node_modules/@fortawesome/fontawesome-svg-core/",\
+        ["npm:6.4.2", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-svg-core-npm-6.4.2-530d31922b/node_modules/@fortawesome/fontawesome-svg-core/",\
           "packageDependencies": [\
-            ["@fortawesome/fontawesome-svg-core", "npm:6.4.0"],\
-            ["@fortawesome/fontawesome-common-types", "npm:6.4.0"]\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.4.2"],\
+            ["@fortawesome/fontawesome-common-types", "npm:6.4.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -439,7 +446,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/@fortawesome-vue-fontawesome-virtual-48714f3974/0/cache/@fortawesome-vue-fontawesome-npm-3.0.3-7a99a3139e-a3ec4db7c8.zip/node_modules/@fortawesome/vue-fontawesome/",\
           "packageDependencies": [\
             ["@fortawesome/vue-fontawesome", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:3.0.3"],\
-            ["@fortawesome/fontawesome-svg-core", "npm:6.4.0"],\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.4.2"],\
             ["@types/fortawesome__fontawesome-svg-core", null],\
             ["@types/vue", null],\
             ["vue", "npm:3.3.4"]\
@@ -1981,7 +1988,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["d2-changelog", "workspace:."],\
-            ["@fortawesome/fontawesome-svg-core", "npm:6.4.0"],\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.4.2"],\
             ["@fortawesome/free-brands-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/free-regular-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.0"],\
