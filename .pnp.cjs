@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webfontloader", "npm:1.6.35"],\
             ["@typescript-eslint/eslint-plugin", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:6.4.0"],\
             ["@typescript-eslint/parser", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:6.4.0"],\
-            ["@vitejs/plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.2.3"],\
+            ["@vitejs/plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.3.1"],\
             ["@vue/eslint-config-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:11.0.3"],\
             ["@vueuse/core", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:10.3.0"],\
             ["axios", "npm:1.4.0"],\
@@ -1125,17 +1125,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@vitejs/plugin-vue", [\
-        ["npm:4.2.3", {\
-          "packageLocation": "./.yarn/cache/@vitejs-plugin-vue-npm-4.2.3-f2af5ce2fe-1c70c1cd18.zip/node_modules/@vitejs/plugin-vue/",\
+        ["npm:4.3.1", {\
+          "packageLocation": "./.yarn/cache/@vitejs-plugin-vue-npm-4.3.1-1ce31cb465-ab19e0be47.zip/node_modules/@vitejs/plugin-vue/",\
           "packageDependencies": [\
-            ["@vitejs/plugin-vue", "npm:4.2.3"]\
+            ["@vitejs/plugin-vue", "npm:4.3.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.2.3", {\
-          "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-vue-virtual-cd80d6581e/0/cache/@vitejs-plugin-vue-npm-4.2.3-f2af5ce2fe-1c70c1cd18.zip/node_modules/@vitejs/plugin-vue/",\
+        ["virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.3.1", {\
+          "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-vue-virtual-4bb56d9064/0/cache/@vitejs-plugin-vue-npm-4.3.1-1ce31cb465-ab19e0be47.zip/node_modules/@vitejs/plugin-vue/",\
           "packageDependencies": [\
-            ["@vitejs/plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.2.3"],\
+            ["@vitejs/plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.3.1"],\
             ["@types/vite", null],\
             ["@types/vue", null],\
             ["vite", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.4.9"],\
@@ -1991,7 +1991,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webfontloader", "npm:1.6.35"],\
             ["@typescript-eslint/eslint-plugin", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:6.4.0"],\
             ["@typescript-eslint/parser", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:6.4.0"],\
-            ["@vitejs/plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.2.3"],\
+            ["@vitejs/plugin-vue", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:4.3.1"],\
             ["@vue/eslint-config-typescript", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:11.0.3"],\
             ["@vueuse/core", "virtual:127e3d3ee355e4b2b756c029d19ec6634a2a7cc2c2d3c0e7d8ed90680286664a6565ac158d332865545ee469850ac6276d099938006c087cf68c363951690642#npm:10.3.0"],\
             ["axios", "npm:1.4.0"],\
