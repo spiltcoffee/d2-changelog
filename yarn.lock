@@ -439,10 +439,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.5.8":
-  version: 20.5.8
-  resolution: "@types/node@npm:20.5.8"
-  checksum: ccd73e0e99ddfcf42e10b7a30a58a432bc39eeb9d1d59084ed818be468e05375b212a29d03529149aff58366c0eddb9bf367cb335db6620a4855ce315c5ecf28
+"@types/node@npm:^20.7.1":
+  version: 20.7.1
+  resolution: "@types/node@npm:20.7.1"
+  checksum: 3140bd6c9130f1ed73a78ce7a1765ee43e155c1eea50eea45e18faeb31d11d97a84fffdc5e3a97582101d2f57d2652a50f510ede6c702780267bad74c822d56c
   languageName: node
   linkType: hard
 
@@ -1430,7 +1430,7 @@ __metadata:
     "@fortawesome/vue-fontawesome": latest-3
     "@mdi/font": 7.2.96
     "@types/dompurify": ^3.0.2
-    "@types/node": ^20.5.8
+    "@types/node": ^20.7.1
     "@types/webfontloader": ^1.6.35
     "@typescript-eslint/eslint-plugin": ^6.5.0
     "@typescript-eslint/parser": ^6.5.0
